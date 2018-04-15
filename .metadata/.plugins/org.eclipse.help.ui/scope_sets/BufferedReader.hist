@@ -1,0 +1,4 @@
+#Fri Apr 06 21:32:47 AEST 2018
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=BufferedReader

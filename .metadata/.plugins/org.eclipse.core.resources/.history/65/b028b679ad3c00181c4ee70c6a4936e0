@@ -1,0 +1,11 @@
+
+public class timeClass {
+
+	public static void main(String[] args) {
+		time timeObject = new time();
+		timeObject.setTime(15,2,6);
+		System.out.println(timeObject.toMilitary());
+
+	}
+
+}

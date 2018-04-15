@@ -1,0 +1,21 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;											
+
+public class colorGraphic extends JPanel{
+	
+	public void paintComponent(Graphics g){
+		super.paintComponent(g);
+		this.setBackground(Color.WHITE);
+		
+		g.setColor(new Color(100, 149, 237));
+		g.fillRect(25, 25, 100, 30);
+		
+		g.setColor(new Color(100, 149, 237));
+		g.fillRect(25,65, 100, 30);
+		
+		g.setColor(Color.BLACK);
+		g.drawString("Lionel Messi", 35, 120);
+	}
+
+}

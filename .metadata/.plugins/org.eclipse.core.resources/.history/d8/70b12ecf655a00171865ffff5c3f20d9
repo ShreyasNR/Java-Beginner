@@ -1,0 +1,13 @@
+
+public class apple3 {
+	public static void main(String args[]){
+		int shreyas = 6;
+		
+		if (shreyas < 10){
+			System.out.println("Yes");
+		}else{
+			System.out.println("No");
+		}
+	}
+
+}

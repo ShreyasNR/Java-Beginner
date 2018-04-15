@@ -1,0 +1,15 @@
+
+public class apples {
+
+	public static void main(String[] args) {
+		 
+		food foodObject[] = new food[2];
+		foodObject[0] = new potpie();
+		foodObject[1] = new tuna();
+		
+		for (int x=0; x<2; x++)
+			foodObject[x].eat();
+
+	}
+
+}

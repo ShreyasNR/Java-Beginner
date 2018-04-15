@@ -1,0 +1,25 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class gui extends JFrame{
+	
+	private JPanel mousepanel;
+	private JLabel statusbar;
+	
+	public gui(){
+		super("title");
+		
+		mousepanel = new JPanel();
+		mousepanel.setBackground(Color.WHITE);
+		add(mousepanel, BorderLayout.CENTER);
+		
+		statusbar = new JLabel();
+		add (statusbar, BorderLayout.SOUTH);
+		
+		HandlerClass handler = new HandlerClass();
+		mousepanel.addMouseListener(handler);
+		mousepanel.addMouseMotionListener(handler);
+	}
+
+}

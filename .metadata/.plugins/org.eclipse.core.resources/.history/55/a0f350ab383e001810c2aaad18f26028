@@ -1,0 +1,13 @@
+
+public class apples {
+
+	public static void main(String[] args) {
+		
+		fatty bucky = new fatty();
+		tuna fo = new tuna();
+		
+		bucky.digest(fo);
+
+	}
+
+}
